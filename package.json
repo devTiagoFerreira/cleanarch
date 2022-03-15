@@ -1,0 +1,28 @@
+{
+  "name": "cleanarch",
+  "version": "1.0.0",
+  "description": "Sistema desenvolvido durante o curso de Clean Code e Clean Architecture do Branas",
+  "main": "index.js",
+  "scripts": {
+    "tsc:init": "tsc --init",
+    "build": "tsc",
+    "test": "tsc && jest dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devTiagoFerreira/cleanarch.git"
+  },
+  "author": "Tiago Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devTiagoFerreira/cleanarch/issues"
+  },
+  "homepage": "https://github.com/devTiagoFerreira/cleanarch#readme",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  }
+}
